@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "linebotapi20241121"
+version = "0.1.0"
+description = ""
+authors = ["Jmimiding4104 <Jmimiding4104@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+start = "linebotapi20241121.main:start"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+python-dotenv = "^1.0.1"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+pydantic = "^2.9.2"
+bson = "^0.5.10"
+pymongo = "^4.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
