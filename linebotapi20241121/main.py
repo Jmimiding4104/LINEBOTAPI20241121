@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field, validator
 from typing import List, Optional
-from bson import ObjectId
 from pymongo import MongoClient
 import asyncio
 import uvicorn
